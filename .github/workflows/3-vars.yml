@@ -9,9 +9,9 @@ env:
   MONGODB_DB_NAME_G: jr16-mongo
   PORT: 80
 jobs:
-  test:
-    environment: dev
-    runs-on: ubuntu-latest
+  # test:
+  #   environment: dev
+  #   runs-on: ubuntu-latest
     env:
       MONGODB_CLUSTER_ADDRESS_J: jr16.mongodb.net
       MONGODB_USERNAME: ${{ vars.MONGODB_USERNAME }}
